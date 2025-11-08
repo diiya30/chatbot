@@ -102,16 +102,11 @@ In code, the server composes messages like:
 
 ## Reflection
 - What was challenging?
-  - Managing model deprecations reliably; added auto-fallback and `/api/models` for quick verification.
-  - Designing prompts that respect topic specialization while keeping responses concise and helpful.
+ I had very little knowledge about langchain so it was difficult to implement this POC in just 24 hours I did some reasearch about API's and found this website i.e groq 
 - What did you learn about GenAI?
-  - Clear system instructions and structured history significantly improve response quality.
-  - Provider model catalogs change; resilient client/server handling prevents production breakage.
+  I learnt about this new technology like langchain , and for the open source configuration, I also did some research and found about this ollama where you can download the open source models and run them locally.
 - How would you improve with more time?
-  - Streaming responses for lower latency and better UX.
-  - Server-side session storage with message trimming and safety filters.
-  - Expand provider support (OpenAI/Gemini/HF) via a pluggable backend adapter.
-
+  Just like i learnt about this technology, i think i can do the same with whatever been assigned to me regarding task or tech, i can learn and grasp them quickly. 
 ## Notes
 - Keep `.env` private (do not commit). `.env.example` shows required variables.
 - Node 18+ is required.
