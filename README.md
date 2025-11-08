@@ -102,7 +102,7 @@ In code, the server composes messages like:
 
 ## Reflection
 - What was challenging?
- I had very little knowledge about langchain so it was difficult to implement this POC in just 24 hours I did some reasearch about API's and found this website i.e groq 
+ I had very little knowledge about langchain so it was difficult to implement this POC in just 24 hours, however I did some reasearch about how to integrate the LLM models in this project and found this website i.e groq.com where you can use any model that that freely available.
 - What did you learn about GenAI?
   I learnt about this new technology like langchain , and for the open source configuration, I also did some research and found about this ollama where you can download the open source models and run them locally.
 - How would you improve with more time?
